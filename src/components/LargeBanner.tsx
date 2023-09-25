@@ -24,7 +24,7 @@ function LargeBanner() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          zIndex: 1, // Placera texten över bilden
+          zIndex: 1,
         }}
       >
         <TextInsideBanner />
