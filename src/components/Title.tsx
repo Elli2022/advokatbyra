@@ -9,6 +9,7 @@ function Title() {
         flexDirection: "column",
         alignItems: "center",
         color: "white",
+        backgroundColor: "black",
       }}
     >
       JEWE ADVOKATBYRÅ

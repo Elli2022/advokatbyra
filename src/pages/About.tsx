@@ -1,11 +1,17 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Title from "../components/Title";
+import Banner from "../components/Banner";
 
 function About() {
+  console.log("Om oss");
   return (
-    <div>
-      <h2>Om oss</h2>
-      <p>Välkommen till vår advokatbyrå</p>
-    </div>
+    <>
+      <Navbar />
+      <Title />
+      <Banner />
+      <div>Detta är sidan om oss</div>
+    </>
   );
 }
 

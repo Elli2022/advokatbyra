@@ -21,7 +21,7 @@ function Navbar() {
           style={{
             width: "70px",
             height: "110px",
-            justifyContent: "flex-start",
+            // justifyContent: "flex-start",
           }}
         />
       </div>
