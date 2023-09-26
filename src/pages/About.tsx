@@ -10,7 +10,7 @@ function About() {
       <Navbar />
       <Title />
       <Banner />
-      <div>Detta är sidan om oss</div>
+      <div style={{ color: "white" }}>Detta är sidan om oss</div>
     </>
   );
 }
