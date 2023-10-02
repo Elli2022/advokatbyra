@@ -10,6 +10,8 @@ function Title() {
         alignItems: "center",
         color: "white",
         backgroundColor: "black",
+        fontFamily: "adobe-caslon-pro,times,georgia,serif",
+        fontSize: 28,
       }}
     >
       JEWE ADVOKATBYRÅ

@@ -11,7 +11,9 @@ function Navbar() {
         padding: 20,
         display: "flex",
         backgroundColor: "black",
-        justifyContent: "flex-end",
+        justifyContent: "center",
+        fontFamily: "adobe-caslon-pro,times,georgia,serif",
+        fontSize: 26,
       }}
     >
       <div>
@@ -21,7 +23,7 @@ function Navbar() {
           style={{
             width: "70px",
             height: "110px",
-            // justifyContent: "flex-start",
+            justifySelf: "center",
           }}
         />
       </div>
