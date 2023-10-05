@@ -11,7 +11,18 @@ function Contact() {
       <Navbar />
       <Title />
       <Banner />
-      <div style={{ color: "white" }}>Kontakt</div>
+      <div
+        style={{
+          color: "white",
+          fontFamily: "adobe-caslon-pro,times,georgia,serif",
+          textAlign: "center",
+          fontSize: 28,
+        }}
+      >
+        <p>Kontakt</p>
+        <p>Lilla Varvsgatan 21D</p>
+        <p>211 76</p>
+      </div>
       <Container>
         <p>
           <strong
@@ -19,6 +30,7 @@ function Contact() {
               color: "white",
               display: "flex",
               justifyContent: "center",
+              fontFamily: "adobe-caslon-pro,times,georgia,serif",
             }}
           >
             Hitta hit:

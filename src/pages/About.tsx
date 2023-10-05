@@ -3,13 +3,15 @@ import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import Banner from "../components/Banner";
 import Container from "../components/Container";
+import Employes from "../components/Employes";
+import HorisontalRule from "../components/HorisontalRule";
+import managingDirector from "../images/managingDirector.jpg";
 
 function About() {
   console.log("Om oss");
   return (
     <>
       <Navbar />
-      <Title />
       <Banner />
       <div
         style={{
@@ -17,56 +19,245 @@ function About() {
           display: "flex",
           justifyContent: "center",
           fontSize: 28,
+          fontFamily: "adobe-caslon-pro,times,georgia,serif",
         }}
       >
-        Detta är sidan om oss
+        <h1
+          style={{
+            fontSize: "60px",
+            fontFamily: "Caslon224Std-Book,times,georgia,serif",
+          }}
+        >
+          Om byrån
+        </h1>
       </div>
       <Container>
-        <p>
-          <strong
-            style={{
-              color: "white",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            Företagsnamn: JEWE Advokatbyrå
-          </strong>
+        <p
+          style={{
+            color: "white",
+            display: "flex",
+            justifyContent: "center",
+            fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+            fontSize: "calc(18px + 0.5vw)", // Exempel på responsiv fontstorlek
+            maxWidth: "800px", // Maxbredd för textbehållaren
+            lineHeight: "1.6", // Optimal line-height för läsbarhet
+            margin: "26px auto", // Centrera behållaren horisontellt med 'auto'
+            padding: "10px", // Utrymme runt texten
+          }}
+        >
+          Wernberg Advokatbyrå strävar efter att vara det självklara valet inom
+          affärsjuridik på våra marknader. Detta förutsätter en ständig
+          anpassning av vårt erbjudande för att möta och anticipera våra
+          klienters varierande behov. Vårt team av kompetenta medarbetare,
+          baserade både i Sverige och internationellt, verkar inom samtliga
+          områden av affärsjuridiken.
         </p>
-        <p>
-          <strong
-            style={{
-              color: "white",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            Grundat: 2023
-          </strong>
-        </p>
-        <p>
-          <strong
-            style={{
-              color: "white",
-              display: "flex",
-              justifyContent: "center",
-              textAlign: "center",
-            }}
-          >
-            Verksamhetsbeskrivning: Välkommen till vår advokatbyrå, där vi
-            erbjuder professionella juridiska tjänster med en personlig prägel.
-            Vi erbjuder en rad olika juridiska tjänster och strävar efter att ge
-            varje klient högsta möjliga standard av rådgivning och stöd. Oavsett
-            om det gäller affärsjuridik, familjerätt, brottmål eller något annat
-            juridiskt område, arbetar vi tillsammans med våra klienter för att
-            uppnå bästa möjliga resultat. Vår byrå värdesätter integritet,
-            transparens och respekt, och vi arbetar oavbrutet för att
-            upprätthålla och vidareutveckla vår expertis inom de juridiska
-            områdena. Vi är här för att hjälpa dig navigera genom juridiska
-            utmaningar och säkerställa dina rättigheter och intressen.
-          </strong>
+        <p
+          style={{
+            color: "white",
+            display: "flex",
+            fontFamily: "adobe-caslon-pro,times,georgia,serif",
+            fontSize: "calc(18px + 0.5vw)", // Exempel på responsiv fontstorlek
+            maxWidth: "800px", // Maxbredd för textbehållaren
+            lineHeight: "1.6", // Optimal line-height för läsbarhet
+            margin: "26px auto", // Centrera behållaren horisontellt med 'auto'
+            padding: "10px", // Utrymme runt texten
+          }}
+        >
+          Vi rådgiver klienter över hela världen och från en mängd olika
+          branscher, vilket innebär att vår expertis sträcker sig över de flesta
+          affärsjuridiska rättsområden. Även om vi opererar på en global
+          marknad, erbjuder vi våra klienter och samarbetspartners en nära och
+          sammansvetsad teamdynamik. Vi investerar betydande resurser i att
+          rekrytera, utveckla och behålla vår personal. Genom åren har vi
+          konstruerat en företagskultur där samarbete står i fokus. Vår unika
+          approach till vinstfördelning inom branschen säkerställer att kunskap
+          flödar fritt mellan medarbetarna och vidare till varje enskild klient,
+          vilket bidrar till vår fortsatta framgång och våra klienters
+          tillfredsställelse.
         </p>
       </Container>
+      <Employes />
+      <p
+        style={{
+          color: "white",
+          display: "flex",
+          fontFamily: "sans-serif",
+          fontSize: "calc(10px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Vår viktigaste tillgång är våra medarbetare
+      </p>
+      <h2
+        style={{
+          fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+          color: "white",
+          display: "flex",
+          fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Insikt i klienternas affärsverksamhet – idag och imorgon.
+      </h2>
+      <p
+        style={{
+          color: "white",
+          display: "flex",
+          fontFamily: "adobe-caslon-pro,times,georgia,serif",
+          fontSize: "calc(18px + 0.5vw)", // Exempel på responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrera behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Vår förmåga att förändras och anpassa oss är inte bara en dygd, utan en
+        nödvändighet för att skapa värde för våra klienter, mitt i en ständigt
+        föränderlig och allt mer komplicerad affärsvärld. En djupgående
+        förståelse för våra klienters affärsverksamhet och en insikt i global
+        utveckling är kritiska komponenter; utan dessa skulle vår rådgivning
+        vara otillräcklig. Därför går vi utöver juridiken och rustar våra
+        medarbetare med en mångfacetterad förståelse, erbjuder dem en bredare vy
+        och fler perspektiv, för att verkligen sätta klientens behov och framtid
+        i centrum." Denna text kan självklart justeras ytterligare beroende på
+        den exakta ton och budskap du vill förmedla. Om du har några specifika
+        punkter eller nyckelord som du vill betona mer, låt mig veta så jag kan
+        justera texten därefter!
+      </p>
+      <h2
+        style={{
+          fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+          color: "white",
+          display: "flex",
+          fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Spaning på globala trender, förpliktelse till hållbarhet och en kultur
+        av innovation.
+      </h2>
+      <p
+        style={{
+          color: "white",
+          display: "flex",
+          fontFamily: "adobe-caslon-pro,times,georgia,serif",
+          fontSize: "calc(18px + 0.5vw)", // Exempel på responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrera behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        I flera år har vi stärkt vårt team med en senior ekonom samt en chef för
+        hållbarhet, vilka båda berikar vår juridiska expertis genom att
+        integrera omvärldsanalys och strategisk utveckling. Hållbarhet är inte
+        bara en biprodukt, utan en införlivad komponent i hela vår organisation
+        och genomgående i all den rådgivning vi erbjuder. Dessutom har vi
+        introducerat MSA Innovation Lab, vår egen affärsenhet dedikerad till
+        innovation och digital omvandling.
+      </p>
+      <h2
+        style={{
+          fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+          color: "white",
+          display: "flex",
+          fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Helhetsomfattande expertis
+      </h2>
+      <p
+        style={{
+          color: "white",
+          display: "flex",
+          fontFamily: "adobe-caslon-pro,times,georgia,serif",
+          fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        I flera år har vi stärkt vårt team med en senior ekonom samt en chef för
+        hållbarhet, vilka båda berikar vår juridiska expertis genom att
+        integrera omvärldsanalys och strategisk utveckling. Hållbarhet är inte
+        bara en biprodukt, utan en införlivad komponent i hela vår organisation
+        och genomgående i all den rådgivning vi erbjuder. Dessutom har vi
+        introducerat MSA Innovation Lab, vår egen affärsenhet dedikerad till
+        innovation och digital omvandling.
+      </p>
+      <HorisontalRule />
+      <h2
+        style={{
+          color: "white",
+          display: "flex",
+          fontFamily: "adobe-caslon-pro,times,georgia,serif",
+          textAlign: "center",
+          fontSize: "calc(48px + 0.5vw)", // Exempel på responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Managing Partner har ordet
+      </h2>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          // height: "100vh",
+        }}
+      >
+        <img
+          src={managingDirector}
+          alt="Managing Director"
+          style={{ alignSelf: "center" }}
+        />
+      </div>
+      <strong
+        style={{
+          fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+          color: "white",
+          display: "flex",
+          fontSize: "calc(22px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Jessica Wernberg
+      </strong>
+      <h3
+        style={{
+          fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+          color: "white",
+          display: "flex",
+          fontSize: "calc(22px + 0.5vw)", // Responsiv fontstorlek
+          maxWidth: "800px", // Maxbredd för textbehållaren
+          lineHeight: "1.6", // Optimal line-height för läsbarhet
+          margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+          padding: "10px", // Utrymme runt texten
+        }}
+      >
+        Managing Partner
+      </h3>
     </>
   );
 }

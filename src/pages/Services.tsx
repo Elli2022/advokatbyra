@@ -8,7 +8,6 @@ function Services() {
   return (
     <>
       <Navbar />
-      <Title />
       <Banner />
       <div style={{ color: "white" }}>Tjänster</div>
     </>

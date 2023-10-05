@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/jeweLogo.png";
+// import logo from "../images/jeweLogo.png";
+import Title from "./Title";
 
 function Navbar() {
   return (
@@ -16,7 +17,7 @@ function Navbar() {
         fontSize: 26,
       }}
     >
-      <div>
+      {/* <div>
         <img
           src={logo}
           alt="Logo"
@@ -26,7 +27,8 @@ function Navbar() {
             justifySelf: "center",
           }}
         />
-      </div>
+      </div> */}
+      <Title></Title>
       <ul
         className="navbar-list"
         style={{

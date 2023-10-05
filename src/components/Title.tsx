@@ -14,7 +14,7 @@ function Title() {
         fontSize: 28,
       }}
     >
-      JEWE ADVOKATBYRÅ
+      WERNBERG
     </h1>
   );
 }

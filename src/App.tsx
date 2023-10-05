@@ -10,6 +10,7 @@ import Contact from "./pages/Contacts";
 import Services from "./pages/Services";
 import Error from "./pages/Error";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
