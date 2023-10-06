@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import Banner from "../components/Banner";
 import Container from "../components/Container";
+import Footer from "../components/Footer";
 
 function Contact() {
   console.log("Kontakt");
@@ -37,6 +38,7 @@ function Contact() {
           </strong>
         </p>
       </Container>
+      <Footer />
     </>
   );
 }

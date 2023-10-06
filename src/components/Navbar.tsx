@@ -17,17 +17,6 @@ function Navbar() {
         fontSize: 26,
       }}
     >
-      {/* <div>
-        <img
-          src={logo}
-          alt="Logo"
-          style={{
-            width: "70px",
-            height: "110px",
-            justifySelf: "center",
-          }}
-        />
-      </div> */}
       <Title></Title>
       <ul
         className="navbar-list"

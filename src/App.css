@@ -1,4 +1,5 @@
 *{
+  
   background-color: black;
 }
 
@@ -13,3 +14,24 @@
 img{
   align-items: center;
 }
+
+/* Global CSS (lägg till i din CSS-fil) */
+p {
+  color: white;
+  font-family: "adobe-caslon-pro,times,georgia,serif";
+  font-size: "calc(18px + 0.5vw)";
+  max-width: "100%"; /* Full bredd upp till 1200px */
+  line-height: "1.6";
+  margin: "26px 0"; /* Inga horisontella marginaler */
+  padding: "10px";
+}
+
+@media (min-width: 1201px) {
+  p {
+      max-width: "800px"; /* Begränsad bredd över 1200px */
+      margin: "26px auto"; /* Centrerad över 1200px */
+      background: rgba(0, 0, 0, 0.5); /* Halvtransparent svart bakgrund */
+      border-radius: 8px; /* Runda hörn */
+  }
+}
+

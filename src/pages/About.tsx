@@ -6,6 +6,7 @@ import Container from "../components/Container";
 import Employes from "../components/Employes";
 import HorisontalRule from "../components/HorisontalRule";
 import managingDirector from "../images/managingDirector.jpg";
+import Footer from "../components/Footer";
 
 function About() {
   console.log("Om oss");
@@ -227,7 +228,7 @@ function About() {
         <img
           src={managingDirector}
           alt="Managing Director"
-          style={{ alignSelf: "center" }}
+          style={{ alignSelf: "center", maxWidth: "100%" }}
         />
       </div>
       <strong
@@ -258,6 +259,63 @@ function About() {
       >
         Managing Partner
       </h3>
+      <div style={{ flexDirection: "row", textAlign: "left" }}>
+        <p
+          style={{
+            fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+            color: "white",
+            display: "flex",
+            fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+            maxWidth: "800px", // Maxbredd för textbehållaren
+            lineHeight: "1.6", // Optimal line-height för läsbarhet
+            margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+            padding: "10px", // Utrymme runt texten
+          }}
+        >
+          Vi önskar att vår hemsida ger dig en inblick i Wernberg Advokatbyrå -
+          inte bara med avseende på vår expertis och det vi gör, utan även vem
+          vi är som team och företag.
+        </p>
+        <p
+          style={{
+            fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+            color: "white",
+            display: "flex",
+            fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+            maxWidth: "800px", // Maxbredd för textbehållaren
+            lineHeight: "1.6", // Optimal line-height för läsbarhet
+            margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+            padding: "10px", // Utrymme runt texten
+          }}
+        >
+          Sedan vår start för 2 år sedan har vi fasthållit en klar ambition: att
+          vara den främsta advokatbyrån på vår marknad. Vår strävan är att
+          erbjuda rådgivning av högsta möjliga kvalitet, medan vi agerar
+          proaktivt och ansvarsfullt gentemot våra klienter, kollegor och
+          samhället i stort. Vi aspirerar på att vara mer än bara rådgivare. Vi
+          vill inte bara möta förväntningar – vi siktar på att konsekvent
+          överträffa dem.
+        </p>
+        <p
+          style={{
+            fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+            color: "white",
+            display: "flex",
+            fontSize: "calc(18px + 0.5vw)", // Responsiv fontstorlek
+            maxWidth: "800px", // Maxbredd för textbehållaren
+            lineHeight: "1.6", // Optimal line-height för läsbarhet
+            margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
+            padding: "10px", // Utrymme runt texten
+          }}
+        >
+          Trots vår relativt korta existens har denna drivkraft alltid varit en
+          kärnkomponent i vår verksamhet. Det fyller mig med stolthet att kunna
+          fastställa att dessa drivkrafter är lika närvarande och inflytelserika
+          idag som när vi först öppnade våra dörrar.
+        </p>
+      </div>
+      <HorisontalRule />
+      <Footer />
     </>
   );
 }
