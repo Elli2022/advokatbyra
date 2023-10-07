@@ -11,6 +11,7 @@ import Services from "./pages/Services";
 import Error from "./pages/Error";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Disclaimer from "./pages/Disclaimer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

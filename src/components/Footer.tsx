@@ -3,6 +3,7 @@ import Container from "./Container";
 import instagramIcon from "../images/instagramIcon.png";
 import facebookIcon from "../images/facebookIcon.png";
 import linkedInIcon from "../images/linkedInIcon.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -56,7 +57,9 @@ function Footer() {
               style={{ height: "36px", width: "36px", borderRadius: "10px" }}
             />
           </a>
-          <a href="">DISCLAIMER</a>
+          <Link to="/disclaimer" style={{ color: "grey" }}>
+            DISCLAIMER
+          </Link>
         </div>
       </footer>
     </Container>
