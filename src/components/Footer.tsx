@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <Container>
-      <footer>
+      <footer className="footer">
         <div style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
           <p
             style={{
