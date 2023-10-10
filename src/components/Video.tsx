@@ -3,13 +3,19 @@ import BackgroundVideo from "../videos/BackgroundVideo.mp4";
 
 function Video() {
   return (
-    <div>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100%", // Ersätt med din önskade höjd
+        overflow: "hidden",
+      }}
+    >
       <video
         style={{
-          position: "relative",
           width: "100%",
-          height: "50vh",
-          overflow: "hidden",
+          height: "100%",
+          objectFit: "cover",
         }}
         autoPlay
         loop
@@ -18,27 +24,26 @@ function Video() {
         <source src={BackgroundVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div>
-        <h1>Welcome to Our Website</h1>
-        <p>Your amazing subtitle here</p>
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          color: "white",
+          textAlign: "center",
+          backgroundColor: "rgba(0, 0, 0, 0)", // Lätt genomskinlig svart bakgrund för att förbättra textläsbarheten
+        }}
+      >
+        <h1 style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}>
+          Welcome to Our Website
+        </h1>
+        <p style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}>
+          Your amazing subtitle here
+        </p>
       </div>
     </div>
   );
 }
-
-// const videoStyle = {
-//   width: "100%",
-//   height: "auto",
-//   objectFit: "cover",
-// };
-
-// const contentStyle = {
-//   position: "absolute",
-//   top: "50%",
-//   left: "50%",
-//   transform: "translate(-50%, -50%)",
-//   color: "white",
-//   textAlign: "center",
-// };
 
 export default Video;
