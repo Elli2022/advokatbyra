@@ -47,6 +47,30 @@ function LargeBanner() {
         >
           Welcome to Our Website
         </h2>
+        <div style={{ backgroundColor: "transparent" }}>
+          <button
+            style={{
+              backgroundColor: "transparent",
+              border: "1px solid white",
+              color: "white",
+              padding: "15px 32px",
+              textAlign: "center",
+              textDecoration: "none",
+              display: "inline-block",
+              fontSize: "16px",
+              fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
+              letterSpacing: ".5px",
+              margin: "4px 2px",
+              minWidth: "246px",
+              transitionDuration: "0.4s",
+              cursor: "pointer",
+              borderRadius: "0",
+            }}
+            onClick={() => alert("Button clicked!")} // Exempelhändelse när knappen klickas
+          >
+            Om oss
+          </button>
+        </div>
       </div>
     </div>
   );
