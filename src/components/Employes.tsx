@@ -1,4 +1,3 @@
-import React from "react";
 import employees1 from "../images/employees1.jpg";
 
 function EmployesImage1() {
