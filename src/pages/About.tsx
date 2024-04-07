@@ -1,6 +1,4 @@
-import React from "react";
 import Navbar from "../components/Navbar";
-import Title from "../components/Title";
 import Banner from "../components/Banner";
 import Container from "../components/Container";
 import Employes from "../components/Employes";
@@ -39,14 +37,14 @@ function About() {
             display: "flex",
             justifyContent: "center",
             fontFamily: "MonumentGrotesk-Regular,helvetica,arial,sans-serif",
-            fontSize: "calc(18px + 0.5vw)", // Exempel på responsiv fontstorlek
+            fontSize: "calc(18px + 0.5vw)", // responsiv fontstorlek
             maxWidth: "800px", // Maxbredd för textbehållaren
-            lineHeight: "1.6", // Optimal line-height för läsbarhet
-            margin: "26px auto", // Centrera behållaren horisontellt med 'auto'
+            lineHeight: "1.6", // Optimal line-height för läsbarheten
+            margin: "26px auto", // Centrerar behållaren horisontellt med 'auto'
             padding: "10px", // Utrymme runt texten
           }}
         >
-          Wernberg Advokatbyrå strävar efter att vara det självklara valet inom
+          W Advokatbyrå strävar efter att vara det självklara valet inom
           affärsjuridik på våra marknader. Detta förutsätter en ständig
           anpassning av vårt erbjudande för att möta och anticipera våra
           klienters varierande behov. Vårt team av kompetenta medarbetare,
@@ -243,7 +241,7 @@ function About() {
           padding: "10px", // Utrymme runt texten
         }}
       >
-        Jessica Wernberg
+        Lisa Larsson
       </strong>
       <h3
         style={{
@@ -272,7 +270,7 @@ function About() {
             padding: "10px", // Utrymme runt texten
           }}
         >
-          Vi önskar att vår hemsida ger dig en inblick i Wernberg Advokatbyrå -
+          Vi önskar att vår hemsida ger dig en inblick i W Advokatbyrå -
           inte bara med avseende på vår expertis och det vi gör, utan även vem
           vi är som team och företag.
         </p>

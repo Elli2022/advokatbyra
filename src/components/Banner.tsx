@@ -1,5 +1,4 @@
-import React from "react";
-import TextInsideBanner from "./TextInsideBanner";
+
 
 function Banner() {
   return (

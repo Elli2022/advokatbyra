@@ -1,7 +1,6 @@
-import React from "react";
 import Navbar from "../components/Navbar";
-import Title from "../components/Title";
 import Banner from "../components/Banner";
+import EmployeesImage2 from "../components/EmployeesImage2";
 import Footer from "../components/Footer";
 
 function Services() {
@@ -11,6 +10,7 @@ function Services() {
       <Navbar />
       <Banner />
       <div style={{ color: "white" }}>Tjänster</div>
+<EmployeesImage2/>
       <Footer />
     </>
   );
