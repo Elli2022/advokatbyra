@@ -15,7 +15,7 @@ img{
   align-items: center;
 }
 
-/* Global CSS (lägg till i din CSS-fil) */
+/* Global CSS */
 p {
   color: white;
   font-family: "adobe-caslon-pro,times,georgia,serif";
@@ -34,4 +34,72 @@ p {
       border-radius: 8px; /* Runda hörn */
   }
 }
+
+.föräldrarelement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Om du vill att det ska finnas utrymme mellan barnen */
+  align-items: left; /* För att centrera barnen vertikalt */
+  position: relative;
+}
+
+
+
+.buttonStyle {
+  display: inline-block;
+  padding: 15px 32px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "MonumentGrotesk-Regular,helvetica,arial,sans-serif";
+  letter-spacing: ".5px";
+  margin: -35px -15px;
+  min-width: 246px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0;
+  position: absolute;
+
+  
+}
+
+.buttonStyle:hover {
+  background-color: white;
+  color: black !important;
+}
+
+
+
+video.fading {
+  animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+body .news-section h1, 
+body .news-section h2, 
+body .news-section h3, 
+body .news-section h4, 
+body .news-section h5, 
+body .news-section h6 {
+    color: white !important;
+}
+
+a{
+  color: white !important;
+  
+}
+
+
 

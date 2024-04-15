@@ -11,7 +11,7 @@ exports.handler = async function(event) {
       statusCode: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*', // Tillåt anrop från alla domäner
+        'Access-Control-Allow-Origin': '*', // Tillåter anrop från alla domäner
         'Access-Control-Allow-Headers': 'Content-Type',
         'Access-Control-Allow-Methods': 'GET'
       },
