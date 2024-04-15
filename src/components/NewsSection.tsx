@@ -36,7 +36,7 @@ export function NewsSection() {
   }, []);
 
   const fetchArticles = useCallback((): void => {
-    // Använder den relativa URL:en för att anropa din serverlösa funktion
+    // Använder den relativa URL:en för att anropa den serverlösa funktionen
     const url = '/.netlify/functions/news-proxy';
   
     fetch(url)
