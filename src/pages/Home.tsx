@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Title from "../components/Title";
+// import Title from "../components/Title";
 import Banner from "../components/Banner";
 import LargeBanner from "../components/LargeBanner";
+import NewsSection from "../components/NewsSection";
 import Footer from "../components/Footer";
 import Video from "../components/Video";
+import HorisontalRule from "../components/HorisontalRule";
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
       <Banner />
       <LargeBanner />
       <Video />
+      <NewsSection />
+      <HorisontalRule />
       <Footer />
     </>
   );
