@@ -18,10 +18,6 @@ export function NewsSection() {
   const [error, setError] = useState<string | null>(null);
   const [gridStyles, setGridStyles] = useState<CSSProperties>(getGridStyles());
 
-  // useEffect(() => {
-  //   console.log("Fetching articles...");
-  //   fetchArticles();
-  // }, []);
 
   useEffect(() => {
     function handleResize() {
