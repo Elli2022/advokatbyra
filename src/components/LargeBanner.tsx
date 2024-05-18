@@ -1,6 +1,4 @@
-import React from "react";
 import lawFirmBanner from "../images/lawFirmBanner.jpg";
-// import TextInsideBanner from "./TextInsideBanner";
 import { Link } from "react-router-dom";
 
 function LargeBanner() {
